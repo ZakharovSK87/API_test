@@ -92,7 +92,7 @@ curl -X POST http://localhost:8000/complaints \
      "text": "Не приходит код подтверждения"
     }
 
-
+## 9 Примеры тестирование API и данные SQL в папке Screenshots в проекте.
 
 
 
