@@ -1,5 +1,4 @@
 from pydantic import BaseModel
-from datetime import datetime
 
 class ComplaintCreate(BaseModel):
     text: str
@@ -11,3 +10,8 @@ class ComplaintResponse(BaseModel):
     category: str
     country: str
     is_spam: bool
+
+    class Config:
+        orm_mode = True
+
+
